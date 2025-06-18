@@ -1,4 +1,4 @@
-# Bankroll Tracker Project README
+# Bankroll Tracker Project 
 
 ## Overview
 The Bankroll Tracker is a web-based application designed to help users manage their financial bankroll, particularly for tracking gains, losses, and money added over time. Built using PHP, SQLite, HTML, CSS, and JavaScript, this project provides a simple interface to log transactions, view history, and maintain an accurate bankroll balance. The application features a modern design with responsive layouts, real-time updates, and the ability to delete transactions. This README was last updated on June 18, 2025, at 08:17 PM WEST.
@@ -18,39 +18,6 @@ The Bankroll Tracker is a web-based application designed to help users manage th
 - SQLite3 PHP extension enabled.
 - A modern web browser (Chrome, Firefox, Edge, etc.).
 - Basic command-line access for setup (optional for Git usage).
-
-## Installation and Setup
-1. **Clone the Repository**:
-   - If using Git, clone the project to your local machine:
-     ```bash
-     git clone <repository-url> /home/afonso/eu
-     ```
-   - Alternatively, download the files manually and place them in `/home/afonso/eu/`.
-
-2. **Set Permissions**:
-   - Ensure the directory is writable by the web server user (e.g., `www-data`):
-     ```bash
-     sudo chmod -R 775 /home/afonso/eu
-     sudo chown -R www-data:www-data /home/afonso/eu
-     ```
-
-3. **Configure the Web Server**:
-   - Point your web server to the `/home/afonso/eu/` directory.
-   - For Apache, edit the configuration (e.g., `/etc/apache2/sites-available/000-default.conf`) to include:
-     ```
-     DocumentRoot /home/afonso/eu
-     <Directory /home/afonso/eu>
-         AllowOverride All
-         Require all granted
-     </Directory>
-     ```
-   - Restart the web server:
-     ```bash
-     sudo service apache2 restart
-     ```
-
-4. **Access the Application**:
-   - Open a browser and navigate to `http://127.0.0.1/index.php` or your server's IP address.
 
 ## Usage
 1. **Add a Transaction**:
@@ -84,27 +51,12 @@ The Bankroll Tracker is a web-based application designed to help users manage th
 - **500 Internal Server Error**: Check PHP error logs (e.g., `/var/log/apache2/error.log`) for syntax errors in `index.php`.
 - **Database Issues**: Ensure `bankroll.db` is writable and the SQLite3 extension is enabled in PHP.
 - **Styling Issues**: Verify `styles.css` and `script.js` are loaded correctly in `index.php`.
-- **Branch Problems**: If Git branches (`main` vs. `master`) cause issues, see the "Version Control" section.
-
-## Version Control
-- The project may have `main` and `master` branches with different histories.
-- To align them, switch to `master` locally (`git checkout master`) and set it as the default branch on GitHub (Settings > Branches).
-- If needed, overwrite `main` with `master`:
-  ```bash
-  git push origin master:main --force
-  ```
-  (Backup first: `cp -r /home/afonso/eu /home/afonso/eu-backup`).
-
-## Contributing
-- Fork the repository and create a new branch for your changes.
-- Submit a pull request with a clear description of your updates.
-- Ensure code follows the existing structure and passes testing.
 
 ## License
 This project is open-source. Feel free to modify and distribute, but please include this README and credit the original author.
 
 ## Contact
-For questions or support, contact the project maintainer at [your-email@example.com] (replace with your email).
+For questions or support, contact the project maintainer at [afonsomiguelap@gmail.com].
 
 ---
 *Last Updated: June 18, 2025, 08:17 PM WEST*
