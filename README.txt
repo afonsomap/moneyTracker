@@ -55,7 +55,7 @@ The Bankroll Tracker is a web-based application designed to help users manage th
 ## Usage
 1. **Add a Transaction**:
    - Enter values for "Money Added," "Loss," or "Gain" (at least one is required).
-   - Optionally, add a "Description."
+   - Optionally, add a "Description.".
    - Click "Update Bankroll" to log the transaction and update the bankroll.
 
 2. **View Transaction History**:
