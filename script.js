@@ -5,7 +5,7 @@ document.getElementById('bankrollForm').addEventListener('submit', function(e) {
     const errorElement = document.createElement('div');
     errorElement.className = 'error';
 
-    // Check if all amount fields are empty
+    // Check if all amount fields are empty!
     if (!moneyAdded && !loss && !gain) {
         e.preventDefault();
         errorElement.textContent = 'Please enter a money added, loss, or gain amount.';
