@@ -52,6 +52,11 @@ The Bankroll Tracker is a web-based application designed to help users manage th
 - **Database Issues**: Ensure `bankroll.db` is writable and the SQLite3 extension is enabled in PHP.
 - **Styling Issues**: Verify `styles.css` and `script.js` are loaded correctly in `index.php`.
 
+## Running
+
+    sqlite3 bankroll.db
+    php -S localhost:9000
+
 ## License
 This project is open-source. Feel free to modify and distribute, but please include this README and credit the original author.
 
