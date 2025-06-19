@@ -57,7 +57,7 @@ The Bankroll Tracker is a web-based application designed to help users manage th
     sqlite3 bankroll.db
     php -S localhost:9000
 
-- **Localhost link**: 
+- **Localhost link**: http://localhost:9000
 
 ## License
 This project is open-source. Feel free to modify and distribute, but please include this README and credit the original author.
